@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pinfo"
+version = "0.1.0"
+description = ""
+authors = ["auth-xyz <smmc.auth@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psutil = "^5.9.5"
+gputil = "^1.4.0"
+rich = "^13.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
